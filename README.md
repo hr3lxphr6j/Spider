@@ -5,7 +5,7 @@ by scrapy work on
 ## How to run
 ```
 pip install scrapy
-git clone <this resp>
+git clone https://github.com/hr3lxphr6j/Spider.git
 cd Spider
 scrapy crawl <spider>
 ```
