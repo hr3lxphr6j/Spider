@@ -14,7 +14,7 @@ class SpiderItem(scrapy.Item):
     pass
 
 
-class NyaaResource(scrapy.Item):
+class NyaaMirrorResource(scrapy.Item):
     name = scrapy.Field()  # 名字
     hash = scrapy.Field()  # 哈希
     link = scrapy.Field()  # 磁链
@@ -30,3 +30,28 @@ class DmhyResource(scrapy.Item):
     info = scrapy.Field()  # 发布信息
     classify = scrapy.Field()  # 分类
     pass
+
+
+class RarbgResource(scrapy.Item):
+    name = scrapy.Field()  # 名字
+    link = scrapy.Field()  # 磁链
+    add_time = scrapy.Field()  # 添加时间
+    size = scrapy.Field()  # 大小
+    imdb_id = scrapy.Field()  # imdb_id
+    title = scrapy.Field()  # 标题
+    category = scrapy.Field()  # 分类
+    year = scrapy.Field()  # 年份
+
+
+class NyaaResource(scrapy.Item):
+    name = scrapy.Field()
+    category = scrapy.Field()
+    date = scrapy.Field()
+    submitter = scrapy.Field()
+    seeders = scrapy.Field()
+    information = scrapy.Field()
+    leechers = scrapy.Field()
+    size = scrapy.Field()
+    downloads = scrapy.Field()
+    link = scrapy.Field()
+    description = scrapy.Field()
