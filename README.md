@@ -1,7 +1,7 @@
 # Spider
 by scrapy work on 
 - share.dmhy.org dmhy
-- nyaa.pantsu.cat nyaa
+- nyaa.si nyaa
 ## How to run
 ```
 pip install scrapy
